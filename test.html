@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<style>
+
+body{
+    background-color: white;
+}
+
+   @media screen and (min-width: 800px){
+        body{background-color: blue;
+     }
+}
+
+
+@media screen and (max-width: 400px){
+aside{
+    display: none;
+    }
+}
+
+@media screen and (min-width: 400px){
+aside{
+    position: relative;
+    width: 20%;
+    float: right;
+    background-color: red ;
+    color: black;
+    padding: .5em 1em;
+    margin-top: 2vw;
+    font-family: serif;
+    font-size: medium;
+    line-height: 1.9;
+    border-radius: .7em 0 0 .7em;
+    }
+}
+
+
+
+</style>
+
+</head>
+
+<body>some stuff here
+    <aside><p>Min width 400px</p>
+    </aside>
+</body>
+</html>
+
+
