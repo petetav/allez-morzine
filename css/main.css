@@ -1,0 +1,163 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+@font-face {
+  font-family: 'Fertigo_PRO';
+  src: url("../fonts/Fertigo_PRO.eot");
+  src: url("../fonts/Fertigo_PRO.eot?#iefix") format("embedded-opentype"), url("../fonts/Fertigo_PRO.woff") format("woff"), url("../fonts/Fertigo_PRO.ttf") format("truetype"), url("../fonts/Fertigo_PRO.svg#webfont") format("svg");
+}
+
+/* declare variables */
+/*colours*/
+/* backgrounds*/
+/* text */
+/*sizes */
+/*universal classes */
+/* line 44, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+li a {
+  color: red;
+  text-decoration: none;
+}
+
+/* line 49, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+li {
+  margin-top: 1em;
+}
+
+/* line 53, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+h1, h2, h3 {
+  color: blue;
+  text-shadow: 1px 1px 1px grey;
+}
+
+/* line 58, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+body {
+  font-family: arial , sans-serif;
+  font-size: medium;
+  background-image: url(../img/ice_crystals.jpg);
+  background-size: cover;
+}
+
+@media screen and (min-width: 450px) {
+  /* line 66, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+  body {
+    font-family: 'Fertigo_PRO', arial;
+  }
+}
+
+/* line 74, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+main {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  color: #1b1779;
+  background-color: rgba(214, 234, 254, 0.9);
+}
+
+/* line 83, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+header {
+  font-size: 8vw;
+  font-weight: 800;
+  text-shadow: 0.1em 0.1em 0.1em grey;
+  text-align: center;
+  color: blue;
+}
+
+@media screen and (min-width: 760px) {
+  /* line 93, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+  aside {
+    position: relative;
+    width: 20%;
+    float: right;
+    background-color: #1b1779;
+    color: white;
+    padding: 0.5em 1em;
+    margin-top: 2vw;
+    font-family: serif;
+    font-size: medium;
+    line-height: 1;
+    border-radius: 0.7em 0 0 0.7em;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  /* line 109, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+  aside {
+    display: none;
+  }
+}
+
+/* line 115, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+section {
+  position: relative;
+  width: 70%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding: 0 0.6em 0 0.8em;
+  text-align: left;
+  color: #1b1779;
+}
+
+@media screen and (max-width: 760px) {
+  /* line 127, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+  section {
+    margin: auto;
+    font-size: small;
+  }
+}
+
+/* line 136, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #6d6d6d;
+  color: darkblue;
+  text-align: center;
+  padding: .5em;
+}
+
+/* line 148, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+hr {
+  color: 2px solid grey;
+}
+
+/* classes   */
+/* line 154, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+.property {
+  text-align: justify;
+}
+
+/* line 158, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+.google_language_widget {
+  position: relative;
+  float: right;
+  top: -20px;
+}
+
+/* line 164, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+.rented {
+  color: white;
+  font-size: larger;
+  background-color: #c90e0e;
+  padding: .3em;
+}
+
+/* Divs */
+/* line 173, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+#envelope {
+  float: right;
+  margin-top: .6em;
+}
+
+/* line 178, /Volumes/Macintosh HD/Users/petertavener/Dropbox/htdocs/allez-morzine/main.scss */
+#address {
+  font-size: medium;
+  line-height: 1.5;
+  position: relative;
+  margin-top: 1em;
+  margin: auto;
+  padding: 0.1em 1em;
+  background-color: #d6eafe;
+  color: black;
+  border-radius: .5em;
+}
